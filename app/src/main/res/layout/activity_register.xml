@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:alpha="0.7"
+    android:background="@drawable/register"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="bijay.com.campusplacement.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="390dp"
+        android:background="#80000000"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/Input_name_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/EditText_name"
+            android:textColor="#E91E63"
+            android:textSize="20sp"
+            android:textColorHint="#E91E63"
+            android:ems="8"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/Input_Email_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/aot_email"
+            android:textColor="#E91E63"
+            android:textSize="20sp"
+            android:textColorHint="#E91E63"
+            android:ems="8"
+            android:inputType="textEmailAddress" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ProgressBar"
+            android:visibility="gone"
+            />
+
+        <EditText
+            android:id="@+id/Input_Password_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/aot_email_password"
+            android:ems="8"
+            android:textColor="#E91E63"
+            android:textSize="20sp"
+            android:textColorHint="#E91E63"
+            android:inputType="textPassword" />
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_complete_stream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:textColor="#E91E63"
+            android:textSize="20sp"
+            android:textColorHint="#E91E63"
+            android:hint="@string/your_stream_text" />
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_complete_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:textColor="#E91E63"
+            android:textSize="20sp"
+            android:textColorHint="#E91E63"
+            android:hint="@string/your_year" />
+
+        <Button
+            android:id="@+id/Register_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="registration"
+            android:background="#D50000"
+            android:textColor="#000000"
+            android:text="@string/Register_Button_text" />
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CampusPlacement</string>
+    <string name="TextView_name">Name</string>
+    <string name="EditText_name">Your Name</string>
+    <string name="aot_email">aot email</string>
+    <string name="your_stream_text">Your Stream</string>
+    <string-array name="Stream_array">
+        <item>Mechanical Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Computer Science And Engineering</item>
+        <item>Information Technology</item>
+        <item>Electronic and Communication Engineering</item>
+        <item>Applied Electronics and Instrumentation Engineering</item>
+    </string-array>
+    <string name="aot_email_password">aot email Password</string>
+    <string-array name="Year_array">
+        <item>1st year</item>
+        <item>2nd year</item>
+        <item>3rd year</item>
+        <item>4th year</item>
+    </string-array>
+    <string name="your_year">Year</string>
+    <string name="Register_Button_text">Register</string>
+    <string name="Sign_in_Button_text">Sign in</string>
+    <string name="Sign_out_Button_text">Sign out</string>
+    <string name="google_status_fmt">AOT User: %s</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="sign_out">Sign Out</string>
+</resources>

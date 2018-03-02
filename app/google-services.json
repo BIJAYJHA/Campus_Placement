@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "343306339022",
+    "firebase_url": "https://campusplacement-76f09.firebaseio.com",
+    "project_id": "campusplacement-76f09",
+    "storage_bucket": "campusplacement-76f09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343306339022:android:07de357abe9e976c",
+        "android_client_info": {
+          "package_name": "bijay.com.campusplacement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343306339022-3iacv72obeuivfjtbs0bahegd44d4m6n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bijay.com.campusplacement",
+            "certificate_hash": "e65f9e328dfeaf43455e9c19c07524df2b2ed94a"
+          }
+        },
+        {
+          "client_id": "343306339022-mf024lvp3kus5pen482qab215ahbrrda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM-JS52AaH4KJAalaUsVOMGLpOmCcmDqk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343306339022-mf024lvp3kus5pen482qab215ahbrrda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
